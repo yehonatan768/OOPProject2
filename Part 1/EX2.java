@@ -3,10 +3,8 @@ import java.io.IOException;
 /**
  * A class for comparing the performance of three functions that count the number of lines in a set of text files.
  * The first function uses a single thread, the second uses multiple threads, and the third uses a thread pool.
- *
- * @author  [Your Name]
- * @version [Insert Version Number]
- * @since   [Insert Date]
+ * @author Noy Dayan, Yehonatan Mekayten.
+ * @version 1.
  */
 public class EX2 {
     
