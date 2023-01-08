@@ -5,6 +5,8 @@ The Task class represents a unit of work that can be executed concurrently by a 
 It implements the Callable interface and the Comparable interface to allow the task to be executed by a thread
 and compared to other tasks based on their priority.
 @param <T> The type of the result returned by this task's call method
+@author Noy Dayan, Yehonatan Mekayten.
+@version 1.
 */
 public class Task<T> implements Callable<T>,Comparable<Task<T>>{
     /** The default priority for a task if none is specified */
