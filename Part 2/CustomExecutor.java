@@ -17,21 +17,21 @@ public class CustomExecutor {
 
     // section 1
     public <T> Future<T> submit(Task<T> task) {
-        maxPriority = Math.max(maxPriority, task.priority);
+        maxPriority = Math.max(maxPriority, task.getPriority());
         return executor.submit(task);
     }
 
     // section 2
     public <T> Future<T> submit(Callable<T> callable, TaskType type) {
         Task<T> task = new Task<>(callable, type);
-        maxPriority = Math.max(maxPriority, task.priority);
+        maxPriority = Math.max(maxPriority, task.getPriority());
         return this.submit(task); // section 4
     }
 
     // section 3
     public <T> Future<T> submit(Callable<T> callable) {
         Task<T> task = new Task<T>(Task.createTask(callable));
-        maxPriority = Math.max(maxPriority, task.priority);
+        maxPriority = Math.max(maxPriority, task.getPriority());
         return this.submit(task); // section 4
     }
 
