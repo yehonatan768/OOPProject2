@@ -32,9 +32,9 @@ public class Task<T> implements Callable<T>,Comparable<Task<T>>{
     @param type The priority of this task, represented by a TaskType enum value
     */
     // section 4 - part 2
-    public Task(Callable<T> operation,TaskType type) {
+    public Task(Callable<T> operation,TaskType taskType) {
         this.operation = operation;
-        this.priority = type.getPriorityValue();
+        this.priority = taskType.getPriorityValue();
     }
     
     /**
