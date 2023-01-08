@@ -10,7 +10,7 @@ and compared to other tasks based on their priority.
 */
 public class Task<T> implements Callable<T>,Comparable<Task<T>>{
     /** The default priority for a task if none is specified */
-    int DEFAULTPRIORITY = 4;
+    int DEFAULTPRIORITY = 1;
     /** The operation to be performed by this task */
     private final Callable<T> operation;
     /** The priority of this task */
