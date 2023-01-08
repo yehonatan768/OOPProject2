@@ -45,8 +45,8 @@ public class CustomExecutor {
     @return A Future object representing the result of the task
     */
     // section 2
-    public <T> Future<T> submit(Callable<T> callable, TaskType type) {
-        Task<T> task = new Task<>(callable, type);
+    public <T> Future<T> submit(Callable<T> callable, TaskType taskType) {
+        Task<T> task = new Task<>(callable, taskType);
         maxPriority = Math.max(maxPriority, task.getPriority());
         return this.submit(task); // section 4
     }
