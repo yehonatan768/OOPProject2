@@ -29,8 +29,8 @@ public class Task<T> implements Callable<T>,Comparable<Task<T>>{
         return new Task(operation);
     }
 
-    public static Task createTask(Callable operation,TaskType type) {
-        return new Task(operation,type);
+    public static Task createTask(Callable operation,TaskType taskType) {
+        return new Task(operation,taskType);
     }
 
     // section 2
