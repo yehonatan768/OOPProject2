@@ -18,4 +18,4 @@ This method uses a fixed thread pool with a number of threads equal to the numbe
 
 ## UML Diagram for the Project
 
-                ![UML](https://github.com/yehonatan768/OOPProject2/blob/85f8a961e4cd2544f9c589567495153166b080a7/Part%201/UML.png)
+![UML](https://github.com/yehonatan768/OOPProject2/blob/85f8a961e4cd2544f9c589567495153166b080a7/Part%201/UML.png)
