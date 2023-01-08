@@ -1,4 +1,4 @@
-# Part 1 of OPProject2
+# Part 1 of OOPProject2
 ## What are we going to see:
 In this project we are going to create files with random number of lines, and count them using 3 ways:
 * A method using a processes that read each file sequentially, reading each line one at a time and adding it to the total count.
