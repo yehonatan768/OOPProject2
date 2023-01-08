@@ -89,7 +89,6 @@ Executes the {@code Callable} operation associated with this task.
     }
     
     /**
-
 Compares this task to another task based on their priorities.
 @param other the other task to compare to
 @return a negative integer, zero, or a positive integer as the priority of this task is less than, equal to, or greater than the priority of the other task
