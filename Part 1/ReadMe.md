@@ -16,4 +16,6 @@ This method creates a separate thread for each file and starts each thread. The 
 This method uses a fixed thread pool with a number of threads equal to the number of files. It creates a FileLineCounterCallable for each file and submits it to the executor service. The callables are executed concurrently by the threads in the thread pool, so the runtime of this method will depend on the number and size of the files, as well as the number of threads in the thread pool. The runtime of this method may be faster than getNumOfLines or getNumOfLinesThreads if there are multiple cores available and the overhead of creating and managing threads is minimized by using a thread pool.
 
 
-![UML](https://github.com/yehonatan768/OOPProject2/blob/85f8a961e4cd2544f9c589567495153166b080a7/Part%201/UML.png)
+## UML Diagram for the Project
+
+                ![UML](https://github.com/yehonatan768/OOPProject2/blob/85f8a961e4cd2544f9c589567495153166b080a7/Part%201/UML.png)
