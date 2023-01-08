@@ -5,10 +5,8 @@ import java.util.concurrent.Callable;
 
 /**
  * A class that implements the Callable interface to count the number of lines in a text file.
- *
- * @author  [Your Name]
- * @version [Insert Version Number]
- * @since   [Insert Date]
+ * @author Noy Dayan, Yehonatan Mekayten.
+ * @version 1.
  */
 public class FileLineCounterCallable implements Callable<Integer> {
     private String fileName;
