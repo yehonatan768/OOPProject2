@@ -1,4 +1,4 @@
-# Part 2 of OPProject2
+# Part 2 of OOPProject2
 ## What are we going to see:
 In this project we created a Custom ThreadPool with Priorities for the tasks in the ThreadPool. Every Task in the ThreadPool is from Type Task.
 The custom thread pool executes tasks by priority using a Priority Blocking Queue Data Structure.
