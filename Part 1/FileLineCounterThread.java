@@ -4,10 +4,8 @@ import java.io.IOException;
 
 /**
  * A class that extends the Thread class to count the number of lines in a text file.
- *
- * @author  [Your Name]
- * @version [Insert Version Number]
- * @since   [Insert Date]
+ * @author Noy Dayan, Yehonatan Mekayten.
+ * @version 1.
  */
 public class FileLineCounterThread extends Thread {
     private String fileName;
