@@ -12,10 +12,8 @@ import java.util.concurrent.Future;
 /**
  * A class for counting the number of lines in a given set of text files. The count can be performed using
  * multiple threads, a thread pool, or a single thread.
- *
- * @author  [Your Name]
- * @version [Insert Version Number]
- * @since   [Insert Date]
+ * @author Noy Dayan, Yehonatan Mekayten.
+ * @version 1.
  */
 public class EX2_1 {
     
