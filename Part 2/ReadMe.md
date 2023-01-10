@@ -21,4 +21,4 @@ The implementation of a custom thread pool allows for greater control over task 
 
 ## UML Diagram for the Project
 
-![UML](https://github.com/yehonatan768/OOPProject2/blob/f2f35d3c5e4dcb110eb726ea0e1851718028931e/Part%202/UML.png)
+![UML](https://github.com/yehonatan768/OOPProject2/blob/f489bb8167e5995a474a66fe644ab21a08ec4b05/Part%202/UML.png)
