@@ -29,7 +29,7 @@ public class Task<T> implements Callable<T>,Comparable<Task<T>>{
     /**
     Constructs a new Task with the given operation and the specified priority.
     @param operation The operation to be performed by this task
-    @param type The priority of this task, represented by a TaskType enum value
+    @param taskType The priority of this task, represented by a TaskType enum value
     */
     // section 4 - part 2
     public Task(Callable<T> operation,TaskType taskType) {
